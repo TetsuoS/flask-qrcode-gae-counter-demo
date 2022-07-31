@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ワンタイムURLサンプルプログラム</title>
+    <style>
+        /*ここにCSSを書くよ*/
+    </style>
+</head>
+
+<body>
+    <br>
+    {{ counter }}
+    <br>
+    <!-- {{ id }} -->
+    https://fir-1210.uc.r.appspot.com/q/{{ id }}/{{ id }}
+    <br>
+    https://fir-1210.uc.r.appspot.com/v/{{ id }}
+    <br>
+    <img src="data:image/png;base64,{{ img_encoded }}">
+    <br>
+    <div id="message" style="display: none;">
+        <!-- アクセス後表示するメッセージ -->
+        <p>アクセスありがとうございました</p>
+    </div>
+</body>
+
+</html>
